@@ -1,0 +1,127 @@
+*  {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+header{
+    background-color:#ecf8d4;
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+
+
+.flex-container {
+    display: flex;/*tornando flex os itens fica lado a lado*/
+    justify-content: center;/*justificando o conteudo ao centro horinzontal*/
+    align-items: center;/*alinhando os itens ao centro na vertical*/
+    gap: 20px;/*propriedade utilizada para dar o respiro entre os elementos*/
+    background-color: #e0deab;/*cor de fundo*/
+    padding: 250px;/*preenchimento da sessao*/
+}
+
+.flex-container > div {
+    background-color: rgb(90, 54, 7);/*cor de fundo da caixa*/
+    width: 200px;/*largura da caixa*/
+    height: 300px;/*altura da caixa*/
+    text-align: center; /*alinhando o texto ao meio da caixa*/
+     padding: 20px;/*preencimento interno da caixa*/
+
+     border-radius: 15px;/*borda da caixa*/
+
+}
+.flex-container > div:hover {
+    transition: 0.8s;
+    box-shadow: 20px 20px 30px rgb(15, 0, 56);/*sombra externa da caixa primeiro valor eixo horizontal, segundo valor eixo vertical, ultimo valor exposiçao da sombra*/
+    /*transform: translate(10px, 0px); /*primeiro eixo X
+    horizontal, depois valor do eixo Y vertical.*/
+
+   /* transform: rotate(-5deg);/*aqui trabalhamos com a rotaçao da caixa*/
+   /* transform: scale(-1.9, -1.9);/*trabalha com a escala de movimentacao dos eixos X e Y*/
+    /*  transform: skew(10deg,  15deg);*/
+    
+}
+
+
+/*1. translate()
+descrição: move um elemento ao longo dos eixos X horizontal e Y vertical. */
+
+/*2. rotate ()
+descrição: rotaciona um elemento ao redor do seu ponto central.*/
+
+/*3. scale()
+descrição: redimensiona um elemento ao longo do eixos X e Y.*/
+
+/*4. skew()
+descrição: inclina um elemento ao longo dos eixos X e Y.*/
+
+
+.sessao2{
+    background-color: #cb8e5f;
+    padding: 250px;
+     display: flex;
+}
+
+.sessao2 h2 {
+    text-align: left;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.sessao2 img {
+  width: 400px;
+  margin: 22px;
+
+}
+
+.sessao2 button {
+    width: 155px;
+    height: 40px;
+    background-color: bisque;
+    color: black;
+    border-color: #ecf8d4;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px;
+
+}
+
+.sessao3 {
+    background-color:#85685a ;
+    padding: 250px;
+   display: flex;
+}
+
+.sessao3 > div {
+    width: 350px;
+    height: 350px;
+    background-color: beige;
+    gap: 20px;
+   
+}
+
